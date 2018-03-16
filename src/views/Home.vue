@@ -2,8 +2,8 @@
 	<el-container>
 		<el-aside>
 			<el-menu
-					default-active="/button"
-					router="router">
+				default-active="/button"
+				router="router">
 				<el-menu-item index="/button">
 					<span>Button 按钮</span>
 				</el-menu-item>

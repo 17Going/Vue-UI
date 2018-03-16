@@ -23,7 +23,7 @@ module.exports = {
 	},
 	"rules": {
 		"vue/html-indent": ["error", "tab", {
-			"attribute": 2,
+			"attribute": 1,
 			"closeBracket": 1
 		}],
 		"indent": [ // 缩进使用tab
