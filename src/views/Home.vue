@@ -7,6 +7,9 @@
 				<el-menu-item index="/button">
 					<span>Button 按钮</span>
 				</el-menu-item>
+				<el-menu-item index="/buttonGroup">
+					<span>Button 按钮组</span>
+				</el-menu-item>
 			</el-menu>
 		</el-aside>
 		<el-main>

@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Button from 'components/button/example';
 
 Vue.use(VueRouter);
 const routes = [{
@@ -8,7 +7,10 @@ const routes = [{
 	component: () => import('views/Home'),
 	children: [{
 		path: '/button',
-		component: Button
+		component: () => import('components/button/example')
+	},{
+		path: '/buttonGroup',
+		component: () => import('components/button-group/example')
 	}]
 }];
 

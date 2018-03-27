@@ -56,6 +56,9 @@ module.exports = {
 				fallback: 'style-loader',
 				use: ['css-loader', 'postcss-loader']
 			})
+		},{
+			test: /\.less$/,
+			use: ['css-loader', 'postcss-loader', 'less-loader']
 		}]
 	},
 	plugins:[
